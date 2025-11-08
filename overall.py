@@ -12,14 +12,14 @@ import json
 # --- WIFI & EMAIL CONFIGURATION (UPDATE THESE) ---
 # =========================================================
 
-WIFI_SSID = "Vikky_Realme"
-WIFI_PASSWORD = "vikky7671"
+WIFI_SSID = "your wifi name "
+WIFI_PASSWORD = "your wifi password"
 
 # Using Formspree.io for email (FREE & EASY)
-FORMSPREE_URL = "https://formspree.io/f/mwprybnb"  
+FORMSPREE_URL = "formspree account url"  
 
-SENDER_EMAIL = "mvaradarajulu25@gmail.com"
-RECIPIENT_EMAIL = "kamaleshpayani88@gmail.com"  # SAME EMAIL - sends to yourself
+SENDER_EMAIL = "enter sender mail"
+RECIPIENT_EMAIL = "enter target e=mail"  # SAME EMAIL - sends to yourself
 
 # Email sending interval (in seconds)
 # Removed for single-send requirement, logic is now event-driven (initial/alert).
@@ -381,3 +381,4 @@ if R0_CALIBRATION_COMPLETE:
         except Exception as e:
             print(f"Critical Error in Main Loop: {e}")
             time.sleep(5)
+
