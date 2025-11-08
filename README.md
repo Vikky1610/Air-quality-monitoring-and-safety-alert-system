@@ -31,9 +31,10 @@ The system can also send alerts through *Telegram Bot* when the air quality exce
 2. Select Interpreter → *MicroPython (ESP32)*.
 3. Connect your ESP32 board via USB.
 4. Open and upload all files:
-   - main.py
-   - dht11.py
+   - overall.py
+   - display.py
    - mq135.py
+   - ssd1306.py
 5. Edit Wi-Fi and E-mail credentials in overall.py.
 6. Click *Run* or press *F5*.
 7. Observe readings in the *Shell*.
