@@ -11,14 +11,14 @@ import json
 # --- WIFI & EMAIL CONFIGURATION (UPDATE THESE) ---
 # =========================================================
 
-WIFI_SSID = "Vikky_Realme"
-WIFI_PASSWORD = "vikky7671"
+WIFI_SSID = "your wifi name"
+WIFI_PASSWORD = "your wifi password"
 
 # Using Formspree.io for email (FREE & EASY)
-FORMSPREE_URL = "https://formspree.io/f/xanpaaav"
+FORMSPREE_URL = "formspree account url"
 
-SENDER_EMAIL = "mvaradarajulu25@gmail.com"
-RECIPIENT_EMAIL = "jvikky86@gmail.com"  # SAME EMAIL - sends to yourself
+SENDER_EMAIL = "enter sender mail"
+RECIPIENT_EMAIL = "enter target mail"  # SAME EMAIL - sends to yourself
 
 # Email sending interval (in seconds)
 EMAIL_SEND_INTERVAL = 30  # Send email every 30 seconds
